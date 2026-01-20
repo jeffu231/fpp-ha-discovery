@@ -1,0 +1,45 @@
+{
+	"repoName": "fpp-ha-discovery",
+	"name": "HA Discovery",
+	"author": "Jeff Uchitjil (jeffu231)",
+	"description": "This plugin is designed to make monitoring an FPP instance in HA easier by publishing the auto discovery device info.",
+	"homeURL": "https://github.com/jeffu231/fpp-ha-discovery",
+	"srcURL": "https://github.com/jeffu231/fpp-ha-discovery.git",
+	"bugURL": "https://github.com/jeffu231/fpp-ha-discovery/issues",
+	"allowUpdates": 1,
+	"versions": [
+        {
+            "minFPPVersion": "7.5",
+            "maxFPPVersion": "7.99",
+            "branch": "master",
+            "sha": "",
+            "dependencies": {
+                "packages": [
+                    "jq"
+                ]
+            }
+        },
+        {
+            "minFPPVersion": "8.0",
+            "maxFPPVersion": "8.99",
+            "branch": "master",
+            "sha": "",
+            "dependencies": {
+                "packages": [
+                    "jq"
+                ]
+            }
+        },
+        {
+            "minFPPVersion": "9.0",
+            "maxFPPVersion": "0",
+            "branch": "master",
+            "sha": "",
+            "dependencies": {
+                "packages": [
+                    "jq"
+                ]
+            }
+        }
+    ]
+}

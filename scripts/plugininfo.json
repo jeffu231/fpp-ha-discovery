@@ -1,0 +1,28 @@
+{
+	"repoName": "fpp-ha-discovery",
+	"name": "HA Discovery",
+	"author": "John Doe (jdoe)",
+	"description": "This plugin is designed to make monitoring an FPP instance in HA easier by publishing the auto discovery device info.",
+	"homeURL": "https://github.com/jeffu231/fpp-ha-discovery",
+	"srcURL": "https://github.com/Fjeffu231/fpp-ha-discovery.git",
+	"bugURL": "https://github.com/jeffu231/fpp-ha-discovery/issues",
+	"allowUpdates": 1,
+	"versions": [
+		{
+			"minFPPVersion": "7.5",
+			"maxFPPVersion": "0",
+			"branch": "master",
+			"sha": "",
+			"dependencies": {
+			    "plugins": [
+				],
+			    "packages": [
+				
+				],
+				"scripts": [
+					
+				]
+			}
+		}
+	]
+}
